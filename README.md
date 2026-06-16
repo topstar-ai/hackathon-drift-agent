@@ -135,8 +135,8 @@ Python with uv — dependency management.
 | 08 Constraints Checker | live |
 | 09 Anti-patterns Checker | pending |
 | 10 Voice Checker | pending |
-| 11 Quality Checker | pending |
-| 12 Identity Agent | pending |
+| 11 Quality Checker | live |
+| 12 Identity Agent | live |
 | 13 Harness Logger | pending |
 | Coordinator | pending |
 

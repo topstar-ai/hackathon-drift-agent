@@ -61,6 +61,14 @@
       "gap": "string | null — description of the gap, null if none"
     }
   },
+  "identity": {
+    "description": "Returned by Agent 12 — persona drift, not a rule breach, so it carries a reason instead of rule/excerpt/severity",
+    "fields": {
+      "agent": "identity",
+      "status": "string — consistent | drifted",
+      "reason": "string | null — how the response diverges from the established identity, null if consistent"
+    }
+  },
   "harness_entry": {
     "description": "Written by Agent 10 to the harness",
     "fields": {
